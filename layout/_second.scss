@@ -1,0 +1,46 @@
+
+.web-design{
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+    // background-color: chartreuse;
+}
+.img{
+    height: 30rem;
+    flex: 0 0 50%;
+    margin: 3rem auto 0;
+    width: 30rem;
+    border-radius: 50%;
+    background-image: url(../img/pexels-photo-5644431.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    &-box{
+        padding: 20px 40px;
+        width: 13rem;
+        height: auto;
+        background-color: rgba(250, 248, 248, 0.5);
+        box-shadow: 1rem 2rem 4rem rgb(73, 72, 71);
+        margin: -5rem auto 0;
+        text-align: center;
+
+        &-heading{
+            margin: 20px auto;
+            
+            
+        }
+    }
+}
+@media (max-width:650px) {
+    .text{
+        display: flex;
+        flex-direction: column;
+        &-box{
+            margin: 0.5rem auto;
+        }
+    }
+}

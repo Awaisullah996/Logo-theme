@@ -1,0 +1,43 @@
+@media (max-width:1000px){
+    .meet{
+        display: flex;
+        flex-direction: column;
+    }
+    .meet-pic{
+        width: 20rem;
+        height: 30rem;
+        margin: 0 auto;
+        display: block;
+    }
+}
+.meet{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+.meet-box{
+    display: flex;
+    width: 20rem;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    margin: auto;
+    &-heading{
+        padding: 0 2rem;
+        font-size: 2.3rem;
+        text-align: left;
+        padding-bottom: 2rem;
+    }
+    &-para{
+        font-size: 1.1rem;
+        padding: 0 2rem;
+        font-size: 1.3rem;
+    }
+}
+.meet-pic{
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+}

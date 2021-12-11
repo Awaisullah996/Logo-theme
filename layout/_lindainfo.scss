@@ -1,0 +1,47 @@
+.linda-info{
+    display: initial;
+    justify-content: initial;
+    align-items: initial;
+    padding: 0 8rem;
+    &-para{
+        padding:0 73px ;
+        font-weight: bold;
+
+    }
+}
+.my-work{
+    width: 100%;
+    height: auto;
+
+    &-heading{
+        text-align: center;
+        padding-top: 5rem;
+        font-size: 2.5rem;
+        
+    }
+
+}
+.my-work-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 5rem auto 0;
+    height: auto;
+ 
+    &-pic{
+        padding: 5px;
+        width: 20rem;
+        height: 20rem;
+    }
+}
+.linda-btn{
+    padding: 12px 30px;
+    background-color: white;
+    font-weight: bold;
+    margin: 2rem auto;
+    font-size: 1rem;
+    display: flex;
+    
+}
